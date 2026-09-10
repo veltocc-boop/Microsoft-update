@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 # --- CONFIGURATION SADIQUE ---
 # 32-byte key for AES encryption. MUST match the loader!
-SECRET_KEY = b'S3cr3t_K3y_F0r_Y0ur_D4rk_EmpiR3_!!' 
-ADMIN_TOKEN = "DarkGPT_Master_Key_666"
+SECRET_KEY = b'211fc9cb70f14ccaa39a1b9628afee5ce5a367767215859f59807b65cae8555d' 
+ADMIN_TOKEN = "77abfab1401fe7306b5e06724d84a36c0974f7efc27b28cc67300e48a471711e"
 
 config_data = {
     "wallet": "44AFFq5k9W9X8fHjE6T5kZpL8N3mR2vQ1sY7xV4bC9aM0nB1vX3zQ5wE8rT2yU6iO4pA7sD9fG1hJ3kL5zX8c",
