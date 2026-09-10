@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # --- CONFIGURATION SADIQUE ---
 # 32-byte key for AES encryption. MUST match the loader!
-SECRET_KEY = b'211fc9cb70f14ccaa39a1b9628afee5ce5a367767215859f59807b65cae8555d' 
+SECRET_KEY =bytes.fromhex('211fc9cb70f14ccaa39a1b9628afee5ce5a367767215859f59807b65cae8555d')
 ADMIN_TOKEN = "77abfab1401fe7306b5e06724d84a36c0974f7efc27b28cc67300e48a471711e"
 
 config_data = {
